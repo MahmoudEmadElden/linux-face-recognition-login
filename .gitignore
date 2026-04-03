@@ -1,0 +1,21 @@
+# Identify and exclude media/test frames
+test_frame.jpg
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.toast
+.lucid
+.kdev4
